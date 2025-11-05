@@ -1,0 +1,582 @@
+proxies:
+- cipher: rc4-md5
+  name: HK Prime 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.62
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: HK PANLIAN 02 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.135
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: HK HKT 03 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40382
+  server: 120.241.45.2
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 04 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15098
+  server: 18.166.74.64
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 05 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 95.40.13.86
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 06 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 43.198.114.229
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 07 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15098
+  server: 18.162.245.53
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 08 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15097
+  server: 95.40.64.145
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 09 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36888
+  server: 18.162.115.191
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 10 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 18.167.94.246
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK Amazon 11 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 18.162.125.252
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 12 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19888
+  server: 54.46.85.119
+  type: ss
+  udp: true
+- auth: 4089dd8a-46db-4762-bd04-cbc7ed131646
+  name: HK WAP 13 @SubscriptionShare
+  password: 4089dd8a-46db-4762-bd04-cbc7ed131646
+  port: 58338
+  server: 45.149.92.33
+  skip-cert-verify: true
+  sni: lsxg1.lansecs.top
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 14 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 18.163.102.192
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 15 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15098
+  server: 54.46.76.247
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 16 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36888
+  server: 18.163.183.197
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK AMAZON 17 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 95.40.102.181
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: SG PRIME 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.222
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: SG Akamai 02 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40381
+  server: 183.236.97.153
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: bby
+  name: SG AMAZON 03 @SubscriptionShare
+  network: grpc
+  port: 40000
+  reality-opts:
+    public-key: Ci3DvH4eTCb7eqYRg1bSsPcV1iJfNHUrOOnkAjr7gV0
+    short-id: 2873189a
+  server: 54.251.239.15
+  servername: www.walmart.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: SG AMAZON 04 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 52.77.229.5
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- cipher: aes-256-gcm
+  name: JP AMAZON 01 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36887
+  server: 54.65.37.159
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 02 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36887
+  server: 54.238.71.16
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 03 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19690
+  server: 54.150.255.236
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 04 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 52.68.119.195
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: JP ZHECTL 05 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.213
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 06 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11688
+  server: 3.112.26.102
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 07 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 16688
+  server: 54.249.214.255
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 08 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 13.113.238.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 09 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15097
+  server: 13.158.137.8
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 10 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 15099
+  server: 18.179.14.120
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 11 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19882
+  server: 57.180.34.235
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP AMAZON 12 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 52.195.221.38
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP AMAZON 13 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 52.193.56.41
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: bby
+  name: JP AMAZON 14 @SubscriptionShare
+  network: grpc
+  port: 40000
+  reality-opts:
+    public-key: wLktBnGvBGFY-N8LCTB5gII2ulgiJBtSYBj33iboKhA
+    short-id: 0df23482
+  server: 54.95.188.30
+  servername: www.walmart.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- cipher: aes-256-gcm
+  name: JP AMAZON 15 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 10079
+  server: 13.115.146.36
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP AMAZON 16 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 52.69.3.6
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- cipher: 2022-blake3-aes-128-gcm
+  name: JP Akamai 17 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40385
+  server: 120.241.45.2
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 18 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 36888
+  server: 52.195.7.128
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 19 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 19885
+  server: 18.183.224.17
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: JP AMAZON 20 @SubscriptionShare
+  password: 05d1a3ab-2ca8-42b2-8f21-527695250017
+  port: 11689
+  server: 54.65.18.214
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: US AMAZON 01 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40384
+  server: 120.232.159.7
+  type: ss
+  udp: true
+- auth: bcd22f7d-6def-492b-9fea-ae377cb07ce8
+  name: US RELIABLESITE 02 @SubscriptionShare
+  password: bcd22f7d-6def-492b-9fea-ae377cb07ce8
+  port: 58338
+  server: 151.243.168.76
+  skip-cert-verify: true
+  sni: lsus5.lansecs.top
+  type: hysteria2
+  udp: true
+- auth: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
+  name: US PONYNET 03 @SubscriptionShare
+  password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
+  port: 58338
+  server: 209.141.47.22
+  skip-cert-verify: true
+  sni: lsus3.lansecs.top
+  type: hysteria2
+  udp: true
+- cipher: rc4-md5
+  name: US OVH 04 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.144
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: US OVH 05 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.145
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US AMAZON 06 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 35.87.202.131
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US AMAZON 07 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 44.248.247.32
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US AMAZON 08 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 34.210.77.33
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- cipher: rc4-md5
+  name: TW DCBG 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.216
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: TW DCBG 02 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.138
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: TW DCBG 03 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.218
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: TW DCBG 04 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.217
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: TW DCBG 05 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.215
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: TW DCBG 06 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40380
+  server: 120.232.159.7
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: AU Host 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.154
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: CA OVH 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.160
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: DE Cyberzone 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.155
+  type: ss
+  udp: true
+- auth: a0a41b61-15f2-4322-a0fe-796bb7108fcb
+  name: DE netcup 02 @SubscriptionShare
+  password: a0a41b61-15f2-4322-a0fe-796bb7108fcb
+  port: 58338
+  server: 91.132.146.90
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  type: hysteria2
+  udp: true
+- cipher: rc4-md5
+  name: FR OVH 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.158
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: FR OVH 02 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.159
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: GB OVH 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.157
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: KR GCore 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.156
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: KR AMAZON 02 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 43.200.1.87
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- cipher: 2022-blake3-aes-128-gcm
+  name: KR AMAZON 03 @SubscriptionShare
+  password: ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==
+  port: 40386
+  server: 120.232.159.7
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: bby
+  name: KR AMAZON 04 @SubscriptionShare
+  network: grpc
+  port: 40000
+  reality-opts:
+    public-key: IllHH4k1x34LP2g6PJPd5-p__kNMRL0-Xq0VSli59mM
+    short-id: 83dd2e7b
+  server: 43.203.206.195
+  servername: www.walmart.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- cipher: rc4-md5
+  name: MO Cyberzone 01 @SubscriptionShare
+  password: 554c010ce4
+  port: 13759
+  server: 118.184.136.175
+  type: ss
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: RU JSC 01 @SubscriptionShare
+  network: tcp
+  port: 40000
+  server: 193.104.57.136
+  servername: 400567.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+- alterId: 0
+  cipher: auto
+  name: Unknown RELIABLESITE 01 @SubscriptionShare
+  port: 26015
+  server: 103.181.165.243
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
