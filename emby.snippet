@@ -1,6 +1,7 @@
 [rewrite_local]
 # lite.liminalnet.com & emby.191920.xyz 全部请求改 UA
-^https?:\/\/(lite\.liminalnet\.com|emby\.191920\.xyz)\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Lenna/1.0.10$2
+#^https?:\/\/(lite\.liminalnet\.com|emby\.191920\.xyz)\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Lenna/1.0.10$2
+^https?:\/\/emby\.191920\.xyz\/emby\/Sessions url request-header (\r\n)X-Emby-Authorization:.+(\r\n) request-header $1X-Emby-Authorization: MediaBrowser Token="58a670772b0c4fe68ff06a4710b9c59b",Client="Lenna-iOS",Device="iPhone",DeviceId="4A958D16-DDB1-4B76-97B6-DE568B66EFAE",Version="1.0.10"$2
 
 [mitm]
 hostname = lite.liminalnet.com, emby.191920.xyz
