@@ -1,8 +1,6 @@
 [rewrite_local]
-# lite.liminalnet.com 全部请求改 UA
-^https?:\/\/lite\.liminalnet\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Lenna/1.0.10$2
+# lite.liminalnet.com & emby.191920.xyz 全部请求改 UA
+^https?:\/\/(lite\.liminalnet\.com|emby\.191920\.xyz)\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Lenna/1.0.10$2
 
 [mitm]
-hostname = lite.liminalnet.com
-
-
+hostname = lite.liminalnet.com, emby.191920.xyz
